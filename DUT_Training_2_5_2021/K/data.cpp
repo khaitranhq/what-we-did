@@ -32,11 +32,28 @@ typedef int64_t ll;
 typedef vector<int> vi;
 typedef pair<int, int> ii;
 
+const int MAX = 1e5  +5;
+int n, q;
+int a[MAX];
+
+
 int main() {
 #ifdef LOCAL
   freopen("data.inp", "r", stdin);
   freopen("data.out", "w", stdout);
 #endif
 
+  cin >> n >> q;
+  for (int i = 1; i <= n; ++i) cin >> a[i];
+
+  while(q--) {
+    int type, x, y;
+    cin >> type >> x >> y;
+
+    if (type == 1) a[x] = y;
+    else {
+      cout << abs(a[x] - a[y]) << endl;
+    }
+  }
   return 0;
 }
