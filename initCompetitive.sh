@@ -99,9 +99,9 @@ table_bot="|"
 
 for problemName in "${PROBLEMS[@]}" #(1)
 do #(1)
-  table_top="$table_top    $problemName    |"
-  table_sep="$table_sep---------|"
-  table_bot="$table_bot[N/A](#${problemName,})|"
+  table_top="$table_top[$problemName](#${problemName,})|"
+  table_sep="$table_sep-------|"
+  table_bot="$table_bot  N/A  |"
 done #(1)
 
 echo $table_top >> readme.md

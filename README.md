@@ -15,4 +15,3 @@ Team member:
 * `Timestamp: Wed, May 5, 2021 1:38:02 PM`
 
 * [Link to directory](DUT_Training_2_5_2021)
-
