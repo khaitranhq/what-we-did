@@ -4,7 +4,7 @@
 
 ### =========================== edit here
 
-CONTEST_NAME="DUT_Training_2_5_2021"
+CONTEST_NAME="DUTPC_2021_Round_2"
 ACTUAL_CONTEST_NAME="2018 ICPC South Central USA Regional Contest"
 PROBLEMS=(A B C D E F G H I J K L)
 # PROBLEMS=(A B C D E)
