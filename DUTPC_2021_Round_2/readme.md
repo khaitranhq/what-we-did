@@ -1,8 +1,8 @@
-# 2018 ICPC South Central USA Regional Contest
+# DUT 2021 - Second Round
 ## Tổng quan
-| A | B | C | D | E | F | G | H | I | J | K | L |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|[N/A](#a)|[N/A](#b)|[N/A](#c)|[N/A](#d)|[N/A](#e)|[N/A](#f)|[N/A](#g)|[N/A](#h)|[N/A](#i)|[N/A](#j)|[N/A](#k)|[N/A](#l)|
+| A | B | C | D | E | F | G | H |
+|---|---|---|---|---|---|---|---|
+|[SOL](#a)|[SOL](#b)|[SOL](#c)|[SOL](#d)|[NAC](#e)|[SOL](#f)|[SOL](#g)|[N/A](#h)|
 
 Ký hiệu: 
 1. `N/A`: Not attempted
@@ -42,21 +42,3 @@ Ký hiệu:
 
 ### H
 [Link to submission](H/data.cpp)
-
-
-### I
-[Link to submission](I/data.cpp)
-
-
-### J
-[Link to submission](J/data.cpp)
-
-
-### K
-[Link to submission](K/data.cpp)
-
-
-### L
-[Link to submission](L/data.cpp)
-
-

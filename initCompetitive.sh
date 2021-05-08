@@ -134,12 +134,12 @@ echo "Successfully created readme.md"
 echo "Appending new contest data to (/README.md).."
 
 cd ..
-echo "## $ACTUAL_CONTEST_NAME" >> readme.md
-echo '* `As: "'$CONTEST_NAME'"`' >> readme.md
-echo "" >> readme.md
-echo '* `Timestamp: '`date`'`' >> readme.md
-echo "" >> readme.md
-echo "* [Link to directory]($CONTEST_NAME)" >> readme.md
-echo "" >> readme.md
+echo "## $ACTUAL_CONTEST_NAME" >> README.md
+echo '* `As: "'$CONTEST_NAME'"`' >> README.md
+echo "" >> README.md
+echo '* `Timestamp: '`date`'`' >> README.md
+echo "" >> README.md
+echo "* [Link to directory]($CONTEST_NAME)" >> README.md
+echo "" >> README.md
 
 echo "Appending successfully. Exiting."
