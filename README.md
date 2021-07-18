@@ -22,3 +22,10 @@ Team member:
 * `Timestamp: Sat 08 May 2021 10:02:38 PM +07`
 
 * [Link to directory](DUTPC_2021_Round_2)
+
+## 2017-2018 ACM-ICPC, Central Europe Regional Contest (CERC 17)
+* `As: "ICPC_2021_Week_06"
+
+* `Timestamp: Sun 18 Jul 2021`
+
+* [Link to directory](ICPC_2021_Week_06)

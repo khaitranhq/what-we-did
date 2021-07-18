@@ -4,8 +4,8 @@
 
 ### =========================== edit here
 
-CONTEST_NAME="DUTPC_2021_Round_2"
-ACTUAL_CONTEST_NAME="2018 ICPC South Central USA Regional Contest"
+CONTEST_NAME="ICPC_2021_Week_06" # No space
+ACTUAL_CONTEST_NAME="2017-2018 ACM-ICPC, Central Europe Regional Contest (CERC 17)"
 PROBLEMS=(A B C D E F G H I J K L)
 # PROBLEMS=(A B C D E)
 
@@ -17,8 +17,8 @@ if [ -d "$CONTEST_NAME" ]; then
   exit 1
 fi
 
-mkdir $CONTEST_NAME
-cd $CONTEST_NAME
+mkdir "$CONTEST_NAME"
+cd "$CONTEST_NAME"
 
 echo "Creating contest subdirectory.."
 for problemName in "${PROBLEMS[@]}" #(1)
@@ -101,7 +101,7 @@ for problemName in "${PROBLEMS[@]}" #(1)
 do #(1)
   table_top="$table_top[$problemName](#${problemName,})|"
   table_sep="$table_sep-------|"
-  table_bot="$table_bot  N/A  |"
+  table_bot="$table_bot N/A |" # bash eats up consecutive spaces
 done #(1)
 
 echo $table_top >> readme.md
